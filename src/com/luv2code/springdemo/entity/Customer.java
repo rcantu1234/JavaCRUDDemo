@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name="customer")
 public class Customer {
 	
-	// TESTING
+	// TESTING GIT HUB
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id")
