@@ -27,6 +27,8 @@ public class TestDBServlet extends HttpServlet {
 		String password = "password";
 		String jdbcUrl = "jdbc:mysql://localhost:3306/web_customer_tracker?useSSL=false";
 		
+		// Adding comments for testing.
+		
 		try {
 			PrintWriter out = response.getWriter();
 			
